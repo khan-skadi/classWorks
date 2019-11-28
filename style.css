@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>my Title</title>
+	
+	<style>
+	
+	h1{color:blue; text-transform:uppercase;}
+	p{color:red; font-size:40px;}
+	</style>
+	
+	</head>
+	<body>
+	
+		<h1>Starting with my webprojects</h1>
+		<p>it's so cool !!!</p>
+		
+		<div>
+			<p>This is my first Paragraph</p>
+			<p>This is my second Paragraph</p>
+			<p>This is my third Paragraph</p>
+			<p>This is my fourth Paragraph</p>
+		</div>
+		
+		<div>
+			<h1>This is my first Heading</h1>
+			<h2>This is my second Heading</h2>
+			<h3>This is my third Heading</h3>
+			<h4>This is my fourth Heading</h4>
+			<h5>This is my fifth Heading</h5>
+			<h6>This is my sixth Heading</h6>
+		</div>
+		
+		<div>
+			<p>This is my fifth Paragraph</p>
+			<p>This is my sixth Paragraph</p>
+		</div>
+		
+	</body>
+</html>	

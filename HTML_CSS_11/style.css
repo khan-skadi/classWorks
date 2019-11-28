@@ -1,0 +1,45 @@
+img {
+    margin: 10px 0;
+    border: 1px solid black;
+    display: block;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myImg1 {
+    width: 70%;
+}
+
+.myImg2 {
+    width: 50%;
+}
+
+.myImg3 {
+    width: 33%;
+}
+
+
+/* You look like (upwards) for desktop, and you look like (downwards) for phone (device with 768 max width screen) */
+
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        margin: 30px 0;
+        border: 5px solid red;
+    }
+    nav {
+        font-size: 14px;
+        justify-content: space-between;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,29 @@
+/* .box {
+    background: #2db34a;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition: background .2s linear .5s, border-radius 1s ease-in 1s;
+}
+
+.box:hover {
+    color: #ff6b29;
+    border-radius: 50%;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    50% {
+        left: 244px;
+        top: 100px;
+    }
+    100% {
+        left: 488px;
+        top: 0;
+    }
+} */

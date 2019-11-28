@@ -1,0 +1,14 @@
+.parent {
+background-image: url('https://images8.alphacoders.com/707/thumb-1920-707947.jpg');
+background-color: black;
+}
+.children {
+border: 2px solid red;
+margin: 20px;
+padding: 10px;
+background:white;
+}
+img {
+height: 64px;
+width: 64px;
+}

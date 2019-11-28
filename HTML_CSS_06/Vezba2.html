@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Forms 2</title>
+	<style>
+	.separator {
+	height: 15px;
+	display: block;
+	border-bottom: 2px solid black;
+	}
+	</style>
+  </head>
+  <body>
+	<h2>task</h2>
+	<form>
+		<p class="separator"></p>
+		First name:<br>
+		<input type="text" name="firstname" value="Petar">
+		<br></br>
+		Last name:<br>
+		<input type="text" name="lastname" value="Kartalov">
+		<p class="separator"></p>
+		
+		<input type="checkbox" name="vehicle1" value="Bike">I have a bike<br>
+		<input type="checkbox" name="vehicle2" value="Car" checked>I have a car
+		<br><br>
+		
+		<input type="radio" name="gender" value="male" checked> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<p class="separator"></p>
+		
+		Pick a car:<br>
+		<select name="cars" size="2">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Opel</option>
+			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+			<option value="audi">Ford</option>
+		</select>
+		<p class="separator"></p>
+		Select your favorite color:
+		<input type="color" name="favcolor">
+		<p class="separator"></p>
+		<textarea name="message" rows="10" cols="30">Playing with html forms</textarea>
+		<p class="separator"></p>
+		<input type="submit" value="Submit">
+	</form>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Vezba 1</title>
+    <style>
+        .parent {
+            margin: 30px auto;
+            padding: 10px;
+            border: 1px solid black;
+            background-color: #fffcac;
+            width: 70%;
+        }
+        
+        .parent p,
+        h1 {
+            background-color: lightgray;
+        }
+        
+        em,
+        strong {
+            background-color: #b2d6ff;
+        }
+        
+        .son p,
+        ul {
+            padding: 0.5em;
+            border: 2px solid black;
+            background: white;
+        }
+        
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        span,
+        li {
+            border: 2px solid blueviolet;
+            padding: 0.5em;
+        }
+        
+        span {
+            display: block;
+        }
+        
+        .box {
+            border: 5px solid rebeccapurple;
+            background-color: lightgray;
+            padding: 40px;
+            margin: 40px;
+            width: 300px;
+            height: 150px;
+        }
+        
+        .alternate {
+            box-sizing: border-box;
+            border-color: rebeccapurple;
+        }
+        
+        .links-list a {
+            background-color: rgb(179, 57, 81);
+            color: #fff;
+            text-decoration: none;
+            padding: 1em 2em;
+        }
+        
+        .links-list a:hover {
+            background-color: rgb(66, 28, 40);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <h1>Headings are Block Elements</h1>
+
+        <p>
+            Paragraphs are blocks, too. <em>However</em>, and strong elements are not. they are
+            <strong>inline</strong> elements
+        </p>
+
+        <p>
+            Block elements define the flow of the HTML document, while inline elements do not.
+        </p>
+    </div>
+
+    <div class="parent son">
+        <p>I am a paragraph. A short one.</p>
+        <div>
+            <ul class="ul1">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ul>
+        </div>
+
+        <p>I am another paragraph. Some of the <span>words</span> have been wrapped in a span element
+        </p>
+
+    </div>
+
+    <div class="parent">
+        <div class="box">
+            I use the standard box model
+        </div>
+        <div class="box alternate">
+            I use the alternate box model
+        </div>
+    </div>
+    <div class="parent">
+        <nav>
+            <ul class="links-list">
+                <li>
+                    <a href="#">Link One</a>
+                </li>
+                <li>
+                    <a href="#">Link Two</a>
+                </li>
+                <li>
+                    <a href="#">Link Three</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+
+</html>

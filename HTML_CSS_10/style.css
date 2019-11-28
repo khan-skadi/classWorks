@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Must use border box to be able to use ( flex ) */
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.menu {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    /* Must use flex to be able to use justify-content */
+    /* Align items - center ( for footer )*/
+}

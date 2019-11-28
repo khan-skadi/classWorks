@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vezba 3</title>
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        div {
+            margin-bottom: 20px;
+            background: #ccc;
+            padding: 20px;
+        }
+        
+        a {
+            background: #333;
+            color: #66d9ef;
+            height: 40px;
+            line-height: 40px;
+            width: 160px;
+            display: inline-block;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        a:hover {
+            background: #66d9ef;
+            color: black;
+        }
+        
+        a.with-transition {
+            transition: 1s;
+        }
+        
+        a.with-fast-transition {
+            transition-duration: 0.5s;
+        }
+        
+        a.with-slow-transition {
+            transition: 3s;
+        }
+        
+        .tp:hover {
+            background: #fff;
+            border: 5px solid #66d9ef;
+            color: red;
+        }
+        
+        a.with-background-transition {
+            transition-duration: 2s;
+            transition-property: background;
+        }
+        
+        a.with-all-transition {
+            transition-duration: 2s;
+        }
+        /* @keyframes testone {
+            from {
+                background-color: blue;
+            }
+            to {
+                background-color: white;
+            }
+        }
+        
+        .skadi {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation-name: testone;
+            animation-duration: 2s;
+        } */
+        
+        #translate-animation {
+            height: 200px;
+            padding: 0;
+            width: 300px;
+            border: 1px solid black;
+        }
+        
+        #translate-animation p {
+            animation: translating 4s linear infinite;
+            background: turquoise;
+            color: white;
+            height: 60px;
+            line-height: 60px;
+            margin: 0;
+            position: absolute;
+            text-align: center;
+            width: 60px;
+        }
+        
+        p.rotate {
+            animation: rotating 4s linear infinite;
+            background: slateblue;
+            border-radius: 60px;
+            color: white;
+            height: 120px;
+            line-height: 120px;
+            margin-top: 20px;
+            margin-left: auto;
+            text-align: center;
+            width: 120px;
+        }
+        
+        @keyframes translating {
+            0% {
+                transform: translate(0, 0);
+            }
+            25% {
+                transform: translate(240px, 0);
+            }
+            50% {
+                transform: translate(240px, 140px);
+            }
+            75% {
+                transform: translate(0, 140px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+        
+        @keyframes rotating {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        .racing {
+            width: 100px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            display: flex;
+            margin: 5px;
+            font-weight: bold;
+            position: relative;
+            animation: mymove 5s infinite;
+        }
+        
+        #car1 {
+            animation-timing-function: linear;
+        }
+        
+        #car2 {
+            animation-timing-function: ease;
+        }
+        
+        #car3 {
+            animation-timing-function: ease-in;
+        }
+        
+        @keyframes mymove {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="#">Without transition</a>
+        <a class='with-transition' href="">With transition</a>
+    </div>
+    <div>
+        <a class='with-fast-transition' href="#">Without transition</a>
+        <a class='with-slow-transition' href="">With transition</a>
+    </div>
+    <div>
+        <a class='with-background-transition tp' href="#">With transition</a>
+        <a class='with-all-transition tp' href="">With all transition</a>
+    </div>
+    <!-- <div class='skadi testone'>
+        <a href="#">With transition</a>
+        <a href="">With all transition</a>
+    </div> -->
+    <div class='result' id='translate-animation'>
+        <p>Hello</p>
+    </div>
+    <div>
+        <p class='rotate'>rotate</p>
+    </div>
+
+    <div>
+        <span class='racing' id='car1'>linear</span>
+        <span class='racing' id='car2'>ease</span>
+        <span class='racing' id='car3'>ease-in</span>
+    </div>
+</body>
+
+</html>

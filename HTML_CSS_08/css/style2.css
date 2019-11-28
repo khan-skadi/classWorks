@@ -1,0 +1,56 @@
+.main {
+    background-color: greenyellow;
+    width: 700px;
+}
+
+img {
+    width: 180px;
+    height: 140px;
+}
+
+.clothes {
+    letter-spacing: 4px;
+    margin-left: 40px;
+}
+
+ul li {
+    overflow: hidden;
+    height: 300px;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+    list-style: none;
+}
+
+.boots {
+    text-transform: uppercase;
+}
+
+.jackets {
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+.jeans {
+    text-align: right;
+}
+
+.footerJames {
+    clear: both;
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+.footerJames a:visited {
+    color: white;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.footerJames a {
+    margin-right: 30px;
+}

@@ -1,0 +1,61 @@
+body {
+	
+	
+}
+#main {
+	width: 680px;
+}
+.clothesdiv {
+	background-color: #667292;
+	padding: 15px;
+	font-size: 22px;
+	text-align: center;
+}
+.clothes {
+	color: white;
+}
+.listydiv {
+	width: 200px;
+	height: 361px;
+	background-color: #8d9db6;
+	padding: 20px;
+	float: left;
+}
+ul.listy a {
+	background-image: url("../img/slika1.jpg");
+	font-size: 22px;
+	margin-bottom: 20px;
+	display: block;
+	background: #cfe0e8;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	background-image: url("../img/slika1.jpg");
+}
+ul.listy {
+	list-style-type: none;
+	padding: 0px;
+}
+.bootsdiv {
+	background-image: url("../img/slika1.jpg");
+	padding: 20px;
+	width: 400;
+	height: 300;
+	background-color: #bccad6;
+}
+.lastdiv {
+	background-image: url("../img/slika1.jpg");
+	background-color: #454140;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+.morelink {
+	display: inline-block;
+	text-decoration: none;
+	width: 150px;
+	background-color: white;
+}
+.backgroundG {
+	background-image: url("../img/slika1.jpg");
+}

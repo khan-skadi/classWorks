@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+	<style>
+		form {
+		border: 2px solid red;
+		}
+		.labelFirstName {
+		color:red;
+		}
+		.fieldOne {
+		border: 2px solid green;
+		}
+		.fieldTwo {
+		border: 2px solid teal;
+		}
+		li {
+		display: block;
+		margin-bottom: 10px;
+		height: 30px;
+		}
+		.liOne {
+		background:red;
+		}
+		.liTwo {
+		background:blue;
+		}
+	</style>
+  </head>
+  <body>
+	<form action="/action_page.php">
+		<fieldset class="fieldOne">
+			<legend>Personal information:</legend>
+			<label class="first_name" for="first_name">First name:</label> <input type="text" name="first_name" value="Petar">
+			<br>
+			Last name: <input type="text" name="lastname" value="Kartalov">
+			<br><br>
+			<input type="radio" name="gender" value="male" checked> Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			<br><br>
+			<input type="submit" value="Submit">
+			<br><br>
+		</fieldset>
+		<fieldset class="fieldTwo">
+			<legend>Work information:</legend>
+			<label class="first_name" for="first_name">First name:</label> <input type="text" name="first_name" value="Petar">
+			<br>
+			Last name: <input type="text" name="lastname" value="Kartalov">
+			<br><br>
+			<input type="radio" name="gender" value="male" checked> Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			<br><br>
+			<input type="submit" value="Submit">
+			<br><br>
+		</fieldset>
+	</form>
+	<ul>
+		<li class="liOne">One way, or another,</li>
+		<li class="liTwo">I'm gonna get you</li>
+	</ul>
+  </body>
+</html>

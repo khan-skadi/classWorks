@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vezba 5.2</title>
+		<link rel="stylesheet" href="style1a.css">
+	</head>
+	
+	<body>
+		<div class="parent">
+			<div class="children">
+				<h3>load image</h3>
+				<img src="telefon.png" alt="google" usemap="#workmap">
+				
+				<map name="workmap">
+					<area shape="rect" coords="10, 50, 150, 100" alt="google" href="telefon.htm">
+				</map>
+			</div>
+			<div class="children">
+				<h3>loading from "image" folder</h3>
+				<img src="image/telefon.png" alt="google">
+			</div>
+			<div class="children">
+				<h3>loading from web</h3>
+				<img src="https://image.flaticon.com/icons/png/128/15/15879.png" alt="google">
+			</div>
+			<div class="children">
+				<h3>open new page on click</h3>
+				<a href="https://image.flaticon.com/icons/png/128/15/15879.png" target="_blank">
+				<img src="https://image.flaticon.com/icons/png/128/15/15879.png" alt="google">
+				</a>
+			</div>
+			<div class="children">
+				<h3>open from uncle's first cousin</h3>
+				<img src="./telefon.png">
+			</div>
+		</div>
+	</body>
+</html>

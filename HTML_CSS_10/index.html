@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Class 10</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a.infolink::after {
+            content: "see more";
+            background: blue;
+            color: white;
+            width: 100%;
+            height: 20px;
+            display: block;
+        }
+        
+        .video {
+            border: 10px solid black;
+        }
+        
+        .video:hover {
+            border: 10px solid orange;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem Ipsum is simply dummy text of the<a class='infolink' href="#" target="_blank"> printing and </a>typesetting industry.
+    </p>
+    <iframe class='video' width="560" height="315" src="https://www.youtube.com/embed/ee3K74gFhgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>

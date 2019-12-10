@@ -1,0 +1,1 @@
+pretvaranjeto od string vo integer, ili od eden vo drug tip se vika parsiranje.
